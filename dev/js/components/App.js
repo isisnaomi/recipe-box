@@ -1,15 +1,15 @@
 import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+import RecipeList from '../containers/recipe-list';
+import RecipeDetails from '../containers/recipe-detail';
 require('../../scss/style.scss');
 
 const App = () => (
     <div>
-        <h2>User List</h2>
-        <UserList />
+        <h2>recipe List</h2>
+        <RecipeList />
         <hr />
-        <h2>User Details</h2>
-        <UserDetails />
+        <h2>recipe Details</h2>
+        <RecipeDetails />
     </div>
 );
 
