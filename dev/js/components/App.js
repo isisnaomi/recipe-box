@@ -5,6 +5,7 @@ require('../../scss/style.scss');
 
 const App = () => (
     <div>
+        <h1>recipebox</h1>
         <h2>recipe List</h2>
         <RecipeList />
         <hr />

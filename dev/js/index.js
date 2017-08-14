@@ -8,6 +8,8 @@ import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 import allReducers from './reducers';
 import App from './components/App';
+import 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css'
 
 const logger = createLogger();
 const store = createStore(
