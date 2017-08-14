@@ -2,7 +2,7 @@
  * The recipes reducer will always return an array of recipes no matter what
  * You need to return something, so if there are no recipes then just return an empty array
  * */
-
+/*
 export default function () {
     return [
         {
@@ -39,4 +39,16 @@ export default function () {
             publisher_url:"http://www.mybakingaddiction.com"
         }
     ]
+}*/
+
+import {FETCH_RECIPES} from '../actions/index';
+
+export default function(state = [], action) {
+    /*switch (action.type) {
+        case FETCH_RECIPES:
+        return [ action.payload.data, ...state ];
+    }*/
+    console.log(action);
+    return []
+
 }
